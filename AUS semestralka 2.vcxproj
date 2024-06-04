@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{257C8863-B033-4FDF-B307-7A7E47705335}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>AUSsemestralka2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JednotkaUzemna.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Nacitavac.cpp" />
+    <ClCompile Include="structures\ds_routines.cpp" />
+    <ClCompile Include="structures\memory_routines.cpp" />
+    <ClCompile Include="structures\structure.cpp" />
+    <ClCompile Include="structures\table\sorting\sort.cpp" />
+    <ClCompile Include="structures\vector\vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Filtre\FHodnota.h" />
+    <ClInclude Include="Filtre\Filter.h" />
+    <ClInclude Include="Filtre\FInterval.h" />
+    <ClInclude Include="Filtre\FPrislusnost.h" />
+    <ClInclude Include="Filtre\FTyp.h" />
+    <ClInclude Include="Filtrovac.h" />
+    <ClInclude Include="FZlozeny.h" />
+    <ClInclude Include="JednotkaUzemna.h" />
+    <ClInclude Include="Kriteria\BJKriterium.h" />
+    <ClInclude Include="Kriteria\UJKriterium.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Kriterium.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Nazov.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Pobyv.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\PPoprod.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\PPreprod.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\PProd.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Prislusnost.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Typ.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Vymera.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Zastavane.h" />
+    <ClInclude Include="Kriteria\UJPodmienene\Zastavanost.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nacitavac.h" />
+    <ClInclude Include="structures\array\array.h" />
+    <ClInclude Include="structures\ds_routines.h" />
+    <ClInclude Include="structures\ds_structure_types.h" />
+    <ClInclude Include="structures\heap_monitor.h" />
+    <ClInclude Include="structures\list\array_list.h" />
+    <ClInclude Include="structures\list\circular.h" />
+    <ClInclude Include="structures\list\linked_list.h" />
+    <ClInclude Include="structures\list\list.h" />
+    <ClInclude Include="structures\memory_routines.h" />
+    <ClInclude Include="structures\structure.h" />
+    <ClInclude Include="structures\structure_iterator.h" />
+    <ClInclude Include="structures\table\binary_search_tree.h" />
+    <ClInclude Include="structures\table\hash_table.h" />
+    <ClInclude Include="structures\table\linked_table.h" />
+    <ClInclude Include="structures\table\sequence_table.h" />
+    <ClInclude Include="structures\table\sorted_sequence_table.h" />
+    <ClInclude Include="structures\table\sorting\bubble_sort.h" />
+    <ClInclude Include="structures\table\sorting\heap_sort.h" />
+    <ClInclude Include="structures\table\sorting\insert_sort.h" />
+    <ClInclude Include="structures\table\sorting\merge_sort.h" />
+    <ClInclude Include="structures\table\sorting\quick_sort.h" />
+    <ClInclude Include="structures\table\sorting\radix_sort.h" />
+    <ClInclude Include="structures\table\sorting\select_sort.h" />
+    <ClInclude Include="structures\table\sorting\shell_sort.h" />
+    <ClInclude Include="structures\table\sorting\shuffle.h" />
+    <ClInclude Include="structures\table\sorting\sort.h" />
+    <ClInclude Include="structures\table\table.h" />
+    <ClInclude Include="structures\table\treap.h" />
+    <ClInclude Include="structures\table\unsorted_sequence_table.h" />
+    <ClInclude Include="structures\vector\vector.h" />
+    <ClInclude Include="Triedenie.h" />
+    <ClInclude Include="UJTyp.h" />
+    <ClInclude Include="UniverzalnyFilter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CSV\1_obce_SR.csv" />
+    <None Include="CSV\2uzemneclenenie.csv" />
+    <None Include="CSV\3_zoznam_zoskupeni_bytovych_jednotiek_SR.csv" />
+    <None Include="CSV\4_bytove_jednotky_SR.csv" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

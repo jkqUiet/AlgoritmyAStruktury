@@ -1,0 +1,45 @@
+﻿  MyForm.cpp
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(212,13): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(211): message : while compiling class template member function 'const T structures::ArrayList<T>::operator [](const int) const'
+          with
+          [
+              T=JednotkaUzemna *
+          ]
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\MyForm.h(747): message : see reference to class template instantiation 'structures::ArrayList<JednotkaUzemna *>' being compiled
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(203,13): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(202): message : while compiling class template member function 'T &structures::ArrayList<T>::operator [](const int)'
+          with
+          [
+              T=JednotkaUzemna *
+          ]
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(237,14): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(230): message : while compiling class template member function 'void structures::ArrayList<JednotkaUzemna *>::insert(const T &,const int)'
+          with
+          [
+              T=JednotkaUzemna *
+          ]
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\Triedenie.h(67,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\Triedenie.h(63): message : while compiling class template member function 'void Triedenie<JednotkaUzemna *,std::string>::utried(structures::ArrayList<JednotkaUzemna *> *,UJKriterium<std::string> *,bool)'
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\MyForm.h(834): message : see reference to function template instantiation 'void Triedenie<JednotkaUzemna *,std::string>::utried(structures::ArrayList<JednotkaUzemna *> *,UJKriterium<std::string> *,bool)' being compiled
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\MyForm.h(833): message : see reference to class template instantiation 'Triedenie<JednotkaUzemna *,std::string>' being compiled
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\Triedenie.h(27,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\Triedenie.h(24): message : while compiling class template member function 'void Triedenie<JednotkaUzemna *,std::string>::rekShell(bool,int)'
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\Triedenie.h(72): message : see reference to function template instantiation 'void Triedenie<JednotkaUzemna *,std::string>::rekShell(bool,int)' being compiled
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\Triedenie.h(53): message : while compiling class template member function 'Triedenie<JednotkaUzemna *,std::string>::Triedenie(void)'
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\MyForm.h(833): message : see reference to function template instantiation 'Triedenie<JednotkaUzemna *,std::string>::Triedenie(void)' being compiled
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\array\array.h(177,13): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\array\array.h(176): message : while compiling class template member function 'int structures::Array<T>::mapFunction(const int) const'
+          with
+          [
+              T=JednotkaUzemna *
+          ]
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\array\array.h(147): message : see reference to function template instantiation 'int structures::Array<T>::mapFunction(const int) const' being compiled
+          with
+          [
+              T=JednotkaUzemna *
+          ]
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(151): message : while compiling class template member function 'structures::ArrayList<JednotkaUzemna *>::ArrayList(const structures::ArrayList<JednotkaUzemna *> &)'
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(169): message : see reference to function template instantiation 'structures::ArrayList<JednotkaUzemna *>::ArrayList(const structures::ArrayList<JednotkaUzemna *> &)' being compiled
+C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\AUS semestralka 2\structures\list\array_list.h(160): message : while compiling class template member function 'structures::ArrayList<JednotkaUzemna *>::~ArrayList(void)'
+  JednotkaUzemna.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  AUS semestralka 2.vcxproj -> C:\Users\qUiet\source\repos\AUS semestralka 2 - Copy - Copy - Copy\Debug\AUS semestralka 2.exe
